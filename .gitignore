@@ -1,0 +1,11 @@
+__pycache__
+.pytest_cache
+*.pyc
+.cache
+/dist/
+/*.egg-info
+
+*.log
+
+env*
+.vscode
