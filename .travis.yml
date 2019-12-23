@@ -2,3 +2,12 @@ language: python
 script:
 - pip3 install .
 - make test
+deploy:
+  provider: pypi
+  user: kgrzywocz
+  password:
+    secure: sAAEi/fnix31y1SrHiIj9nnnc0gb81oGL+zbkQPGQshWN3ekEixjPw4mYKnIje3DUTeHTwLUzCJDNXOvmudnUCHb1BhiQyIjMqvsZVDXQX01RyWvgFI/rrP5ViRQosjYDJfrCcODKhlBIztxLprdpPM4WwxDqZ30W54XliWLODaZkCNNVrqnGtCNW9Q46VTJUJO9MNmKvcHoeXCuwpYvjWxt7pcQzQqlvXwUqfCyOsw7EN1uDrESoEBEi/FrAn66KCYaYxwFK8w7DgeWkGF6PRpOeyjWFj8QbZzTaXClAgKc1CRhKYbRlE9eS8M4UkrZY/LZby8kwG4osVHvA0Wl/6rFSBrNqx9lHxlSIqXuFVAilEAWiHDbsvHAv7eucoaZ+GLeTs0TumTKfzmgxweezZJ3qiTMNcIYGDkBiI4iPcmtzz3ePsUiLPU0cUrxigcshTvJjX9Gu0Yoi3pjy9DqDnqjfr0e2dMCAqElvY7hlkEAc8ZgX3bH6CPnlP+VZrEq/ege9Ql57RW6yCRK5BLLam32vU7+XUO+UQnpbBrwBXZKHbXrI3W4SVCy5KiFopQEdJn136zTrt632pp2+hIgX8j+jI3hb2JWs5RG/r6YIY4tqJZJoU9daN/x4v/7Sk2m4h/8EdR/h0hM1Og6RK+QfcnD+xjt+GRA3W2y/n+FIW0=
+  on:
+    tags: true
+    distributions: sdist bdist_wheel
+    repo: kgrzywocz/mdtest
