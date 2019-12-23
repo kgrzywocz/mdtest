@@ -3,6 +3,7 @@ __pycache__
 *.pyc
 .cache
 /dist/
+/build/
 /*.egg-info
 
 *.log

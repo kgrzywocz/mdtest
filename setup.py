@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='mdtest',
-      version='0.0.1',
+      version='0.1.0',
       description='Framework for running tests embedded in markdown files.',
       url='http://github.com/kgrzywocz/mdtest',
       author='Krzysztof Grzywocz',
