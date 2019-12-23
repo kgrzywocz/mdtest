@@ -16,7 +16,7 @@ For more details about command options see [doc/CLI.md](doc/CLI.md).
 
 ## Concordion Syntax
 
-You can easily start by looking at [doc/BasicConcordionExample.md](doc/BasicConcordionExample.md). It is a ```mdtest``` instrumented version of [Concordion Getting Started](https://concordion.org/tutorial/java/markdown/), which I recommend you to follow ;). 
+You can easily start by looking at [doc/BasicConcordionExample.md](doc/BasicConcordionExample.md). It is a ```mdtest``` instrumented version of [Concordion Getting Started](https://concordion.org/tutorial/java/markdown/), which I recommend you to follow ;).
 
 ```mdtest``` aims to use the same syntax as [Concordion](https://concordion.org/) - it just provides different fixture implementation - python is a bit be more 'lightweight'.
 
