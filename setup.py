@@ -9,8 +9,8 @@ setup(name='mdtest',
       license='LGPLv3',
       packages=['mdtest', 'mdtest/fixture'],
       install_requires=[
-          'python_version>="3.5"'
-          'markdown>=3',
+          'python_version>="3.5"',
+          'Markdown>=3',
           'docopt>=0.5'
       ],
       scripts=['bin/mdtest'],
