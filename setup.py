@@ -2,6 +2,9 @@ from setuptools import setup
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
+    long_description = long_description.replace(
+        "](doc/",
+        "](https://github.com/kgrzywocz/mdtest/blob/master/doc/")
 
 setup(name='mdtest',
       version='0.1.1',
@@ -20,4 +23,4 @@ setup(name='mdtest',
       ],
       scripts=['bin/mdtest'],
       zip_safe=True,
-)
+      )
