@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
         "](https://github.com/kgrzywocz/mdtest/blob/master/doc/")
 
 setup(name='mdtest',
-      version='0.1.1',
+      version='0.1.2',
       description='Framework for running tests embedded in markdown files.',
       long_description=long_description,
       long_description_content_type="text/markdown",
